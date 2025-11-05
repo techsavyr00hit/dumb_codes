@@ -1,2 +1,2 @@
-# My_dumb_projects
+# dumb_codes
 just some random stuffs
