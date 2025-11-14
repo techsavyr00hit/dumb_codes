@@ -1,4 +1,4 @@
-def recurfibo(n:int)->int:
-    if n<=1:        
-        return n
-    return recurfibo(n-1)+recurfibo(n-2) 
+def recurfibo(a:int,b:int,iter:int,count:int)->int:
+    if iter==count:
+        return a
+    return recurfibo(b,a+b,iter,count+1)
